@@ -41,11 +41,11 @@ $mail->AltBody = "Email id :   ".$contactEmail. "\r\n" .$contactName." " .$conta
 if(!$mail->send()) {
     echo '<script language="javascript">';
     echo 'alert("Oops, Something went wrong. Please try again later");';
-    echo 'window.location.href="contact.html";';
+    echo 'window.location.href="https://smartgenpub.com/contact.html";';
     echo '</script>';
 } else {
     echo '<script language="javascript">';
     echo 'alert("Thank You for Contacting Us, We will get back to you soon.");';
-    echo 'window.location.href="contact.html";';
+    echo 'window.location.href="https://smartgenpub.com/contact.html";';
     echo '</script>';
 }
