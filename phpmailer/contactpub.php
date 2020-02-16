@@ -26,6 +26,7 @@ $mail->Password = "elgoog80890#";*/
 $mail->setFrom('info@smartgentech.com', 'Mailer');
 $mail->addAddress('info@smartgentech.com', 'Smartgen Technologies'); 
 $mail->addAddress('tony.jose.in@gmail.com', 'Tony Jose');
+$mail->addAddress('sabarishinfo@gmail.com', 'Sabarish');
 $mail->addCC('sabarishinfo@gmail.com');
 $mail->SMTPDebug = 2;
 
